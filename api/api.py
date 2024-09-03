@@ -4,7 +4,7 @@ from sodapy import Socrata
 
 def obtener_datos(nombre_departamento, limite_registros):
     # Configuración del cliente Socrata para obtener datos públicos
-    client = Socrata("www.datos.gov.co", None)  # No se requiere token para conjuntos de datos públicos
+    client = Socrata("www.datos.gov.co", None)  
     
     try:
         # Construir la consulta usando un filtro WHERE para el departamento
